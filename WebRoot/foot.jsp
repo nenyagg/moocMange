@@ -19,7 +19,7 @@
 			</div>
 			<div class = "foot_right1">
 					<a href="http://nenyagg.github.io/" target="_black"><b>作&nbsp&nbsp者&nbsp&nbsp博&nbsp&nbsp客</b></a><br /><br />
-					<a href="https://github.com/nenyagg/moocWeb/tree/master/moocMange_testVar" target="_black"><b>网&nbsp&nbsp站&nbsp&nbsp源&nbsp&nbsp码</b></a><br /><br />
+					<a href="https://github.com/nenyagg/moocMange" target="_black"><b>网&nbsp&nbsp站&nbsp&nbsp源&nbsp&nbsp码</b></a><br /><br />
 				</div>
 			<div class = "foot_right2">
 				Email: <a href="mailto:nenyagg@gmail.com"><b>nenyagg@gmail.com</b></a><br /><br />
