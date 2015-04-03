@@ -35,7 +35,7 @@
     
             
 			<div class="login_form">
-				<form action="http://www.js-css.cn" name="loginform" accept-charset="utf-8" id="login_form" class="loginForm" method="post"><input type="hidden" name="did" value="0"/>
+				<form action="login.action" name="loginform" accept-charset="utf-8" id="login_form" class="loginForm" method="post"><input type="hidden" name="did" value="0"/>
                <input type="hidden" name="to" value="log"/>
                 <div class="uinArea" id="uinArea">
                 <label class="input-tips" for="u">账号: </label>
@@ -66,7 +66,7 @@
   
     <div class="qlogin" id="qlogin" style="display: none; ">
    
-	    <div class="web_login"><form name="form2" id="regUser" accept-charset="utf-8"  action="http://github.com/nenyagg" method="post" >
+	    <div class="web_login"><form name="form2" id="regUser" accept-charset="utf-8"  action="register.action" method="post" >
 		      <input type="hidden" name="to" value="reg"/>
 			      		       <input type="hidden" name="did" value="0"/>
 	        <ul class="reg_form" id="reg-ul" >

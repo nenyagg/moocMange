@@ -22,6 +22,9 @@
 				<s:if test = "#session.user == null">
 					<td><a href="login.jsp"><b>登录/注册</b></a></td>
 				</s:if>
+				<s:else>
+					<td><a href="logout.action"><b>注销</b></a></td>
+				</s:else>
 				</tr>
 			</table>
 		</div>
