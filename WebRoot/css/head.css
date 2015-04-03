@@ -1,0 +1,50 @@
+html{}
+
+body {
+	font-family:"Microsoft Yahei";
+	font-size:15px;
+	margin:0;
+	background-color: #FCFCFC;
+}
+
+img{
+	style="margin-top:15px";
+	style="margin-top:15px";
+}
+
+a {
+	text-decoration:none;
+}
+a:link {
+		color: #8E8E8E;
+}
+	
+a:visited {
+			color: #8E8E8E;
+}
+a:hover {
+	text-decoration:none;color:#f00;
+	font-size: 150%;
+	text-decoration: underline;
+}
+
+.head {
+	background: #fff; 
+	margin: 15px auto; 
+	width: 1050px; 
+	font-family: arial, "宋体"
+}
+
+.head_left {
+	float: left; width: 290px
+}
+.head_right {
+	margin-left: 293px
+}
+
+.rightTag{
+	margin-top:0;
+	float:right; 
+	width:300px; 
+	margin-right: 8px;
+}
