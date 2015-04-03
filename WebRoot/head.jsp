@@ -19,7 +19,9 @@
 				<td><a href="index.jsp"><b>首页</b></a></td>
 				<td><a href="login.jsp"><b>课程</b></a></td>
 				<td><a href="http://en.wikipedia.org/wiki/Massive_open_online_course" target="_black"><b>关于mooc</b></a></td>
-				<td><a href="login.jsp"><b>登录/注册</b></a></td>
+				<s:if test = "#session.user == null">
+					<td><a href="login.jsp"><b>登录/注册</b></a></td>
+				</s:if>
 				</tr>
 			</table>
 		</div>
