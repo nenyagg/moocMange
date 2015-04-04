@@ -1,0 +1,17 @@
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="struts" extends="struts-default">
+		<action name="register" class="userAction" method = "register">
+			<result name="success">/register_success.jsp</result>
+		</action>
+		<action name="login" class="userAction">
+			<result name="success">/login_success.jsp</result>
+			<result name="error">/login.jsp</result>
+		</action>
+		<actiom name = "logout" class = "userAction" method = "logout">
+			<result name = "success">/index.jsp</result>
+		</actiom>
+	</package>
+</struts>

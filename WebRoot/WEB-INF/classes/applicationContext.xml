@@ -30,4 +30,16 @@
 		<property name="mappingResources">
 			<list>
 				<value>org/nenyagg/moocMange/vo/User.hbm.xml</value></list>
-		</property></bean></beans>
+		</property></bean>
+		<bean id = "baseDAO" class = "org.nenyagg.moocMange.dao.BaseDAO">
+			<propety name = "sessionFactory" ref = "sessionFactory" />
+		</bean>
+		<bean id = "userDAO" class = "org.nenyagg.moocMange.dao.impl.UserDAO"
+		parent="baseDAO">
+			<property name="userDAO" ref = "userDAO" />
+		</bean>
+		<bean id = "userAction" class = "org.nenyagg.moocMange.action.UserAction">
+			<property name="userService" ref = "userService" />
+		</bean>
+		
+		</beans>
