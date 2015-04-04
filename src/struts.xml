@@ -4,10 +4,10 @@
 <struts>
 	<package name="struts" extends="struts-default">
 		<action name="register" class="userAction" method = "register">
-			<result name="success">/register_success.jsp</result>
+			<result name="success">/index.jsp</result>
 		</action>
 		<action name="login" class="userAction">
-			<result name="success">/login_success.jsp</result>
+			<result name="success">/index.jsp</result>
 			<result name="error">/login.jsp</result>
 		</action>
 		<actiom name = "logout" class = "userAction" method = "logout">

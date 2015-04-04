@@ -36,6 +36,8 @@
 		</bean>
 		<bean id = "userDAO" class = "org.nenyagg.moocMange.dao.impl.UserDAO"
 		parent="baseDAO">
+		</bean>
+		<bean id = "userService" class = "org.nenyagg.moocMange.service.impl.UserService">
 			<property name="userDAO" ref = "userDAO" />
 		</bean>
 		<bean id = "userAction" class = "org.nenyagg.moocMange.action.UserAction">
